@@ -9,7 +9,7 @@ body {
     background-color: #f0f2f544;
     /* color de fondo para que se note pero que nos permita ver la img de fondo */
 
-    background-image: url('/assets/fondo-form.jpg');
+    background-image: url('assets/fondo-form.jpg');
     /* La ruta a tu imagen */
     background-size: cover;
     /* Estiramos la img para cubrir toda la pantalla */
