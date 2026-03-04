@@ -18,8 +18,7 @@ Este es un proyecto de práctica desarrollado como parte de mi formación en **D
 - Git & GitHub: Control de versiones y despliegue en GitHub Pages.
 
 ##  Vista previa
-Puedes ver el formulario funcionando aquí: 
-👉 [PONÉ ACÁ TU LINK DE GITHUB PAGES]
+Puedes ver el formulario funcionando aquí: https://CianoBilbaoMauro.github.io/frontend_basics_form-/ 
 
 ---
 Desarrollado por Mauro 
