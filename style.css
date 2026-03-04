@@ -1,0 +1,113 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* Centramos horizontalmente */
+    align-items: center;
+    /* Centramos verticalmente */
+    background-color: #f0f2f544;
+    /* color de fondo para que se note pero que nos permita ver la img de fondo */
+
+    background-image: url('/assets/fondo-form.jpg');
+    /* La ruta a tu imagen */
+    background-size: cover;
+    /* Estiramos la img para cubrir toda la pantalla */
+    background-position: center;
+    /* Centramos la img para que no se corte lo importante */
+    background-repeat: no-repeat;
+    /* Evita que la img se repita como mosaico */
+    background-attachment: fixed;
+    /* Hace que el fondo se quede quieto al scrollear */
+}
+
+
+p {
+    margin-bottom: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 700;
+    color: black;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #111827;
+    margin-bottom: 25px;
+}
+
+form {
+
+    background-color: rgba(255, 255, 255, 0.753);
+    padding: 30px;
+    border-radius: 12px;
+    /* 4. Sombra (Shadow): Esto le da profundidad y hace que la tarjeta "flote" */
+    /* El primer 0 es horizontal, 4px vertical, 15px de desenfoque y el color con transparencia */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    /* 5. Ancho máximo: Para que en pantallas grandes no se estire demasiado */
+    width: 100%;
+    max-width: 400px;
+}
+
+#masc+label,
+#fem+label {
+    font-weight: 700;
+
+
+}
+
+input[type="radio"] {
+    /* Usamos el mismo color de tu botón */
+    accent-color: rgb(70, 130, 180);
+    /* Le damos un poquito de tamaño extra para que se vea mejor */
+    transform: scale(1.2);
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(70, 130, 180);
+    /* Azul */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+button[type="submit"]:hover {
+    background-color: rgb(70, 150, 200);
+
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Efecto cuando haces clic para escribir */
+input:focus {
+    border-color: rgb(70, 130, 180);
+    /* El azul del botón */
+    outline: none;
+    background-color: white;
+    /* Para que resalte sobre el formulario traslúcido */
+}
